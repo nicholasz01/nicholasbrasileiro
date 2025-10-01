@@ -4,6 +4,9 @@ root{
 --folly: #f52f57ff;
 --sandy-brown: #f79d5cff;
 --pumpkin: #f3752bff;
---titulo: 
---texto: 
+--titulo: "Silkscreen", sans-serif;
+--texto: "Silkscreen", sans-serif;
+}
+body{
+    background-color: var(--madder);
 }
