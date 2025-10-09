@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Silkscreen:wght@400;700&display=swap');
+root{
+--madder: #a20021ff;
+--folly: #f52f57ff;
+--sandy-brown: #f79d5cff;
+--pumpkin: #f3752bff;
+--titulo: "Silkscreen", sans-serif;
+--texto: "Silkscreen", sans-serif;
+}
+body{
+    background-color: var(--madder);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--texto)
+}
+main{
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+button: :hover{
+    font-family: var(--titulo);
+    background-color: var(--folly);
+    color: var(--sandy-brown);
+    trasition: 0.5s;
+}
