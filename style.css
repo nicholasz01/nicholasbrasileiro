@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --verde-azulado: rgb(0, 204, 255);
-    --azul: rgb(27, 48, 63);
-    --amarelo: rgb(255, 154, 3);
-    --laranja: #fb8500ff;
+    --verde-azulado: #AEC6CF;   
+    --azul: #2D4A53;           
+    --amarelo: #FFB385;         
+    --laranja: #FF7F50;         
     --titulo: "Bebas Neue", sans-serif;
     --texto: "Raleway", sans-serif;
 }
+
 body{
     background-color: var(--verde-azulado);
     font-family: var(--texto);
     margin: 0;
     padding: 0;
-    display: fsex;
+    display: flex; 
     align-items: center;
     justify-content: center;
 }
+
 main{
     margin-top: 20px;
     max-width: 90%;
     text-align: center;
 }
+
 button{
     font-family: var(--titulo);
     background-color: var(--azul);
@@ -33,6 +36,7 @@ button{
     border-radius: 10px;
     font-size: 20px;
 }
+
 button:hover{
     background-color: var(--laranja);
     color: var(--azul);
